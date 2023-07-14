@@ -1,0 +1,47 @@
+
+{
+    "cloud_pct=100,
+    "temp=34,
+    "feels_like=41,
+    "humidity=61,
+    "min_temp=34,
+    "max_temp=34,
+    "wind_speed=4.22,
+    "wind_degrees=145,
+    "sunrise=1689031556,
+    "sunset=1689080300
+  }
+
+
+
+
+
+
+  
+function sendData() {
+    const yourcityInput = document.querySelector('#yourcity');
+    const cityValue = yourcityInput.value;
+    cityname.innerHTML=cityValue;
+    console.log(cityValue);
+    const url3 = "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=" + cityValue;
+    const cityname=document.querySelector('#cityName');
+   
+    
+    
+
+
+    
+    fetch(url3, options)
+    .then(response => response.json())
+    .then((response) => {
+        console.log(response)
+        yourtemp.innerHTML=response.temp
+        yourhumidity.innerHTML=response.humidity
+        yourmin_temp.innerHTML=response.min_temp
+        yourmax_temp.innerHTML=response.max_temp
+        yourwind_speed.innerHTML=response.wind_speed
+    
+    })
+    .catch(err => console.error(err));
+    
+}

@@ -1,0 +1,80 @@
+#bodykol{
+    /* background-color: pink;; */
+    background-image: url("KOL.jpg");
+    background-size: 100% 80%;
+}
+
+.bodypic{
+    background-image: url("newbody.avif");
+    background-size: cover;
+}
+
+.top1{
+    font-weight: 300;
+}
+
+.top2{
+    font-weight: 600;
+}
+
+.card{
+    border-color: black;
+}
+
+ul li{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.card-header{
+    background-color:#fdb90dcf;
+}
+
+.bodyban{
+    background-image: url(KOL.jpg);
+    background-size: cover;
+}
+.banbtn{
+    /* background-image: url(KOL.jpg); */
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn{
+    background-color:#fdb90dcf ;
+    color: black;
+}
+
+#banhead{
+    background-color:#fdb90dcf ;
+    height: 60.23px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 1rem; */
+}
+
+#yourcitys{
+    background-image: url("your.jpg");
+    background-size: cover;
+}
+
+#ycityhead{
+    background-color:none;
+    height: 60.23px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ycitybtn{
+    background-color: white;
+    font-size: 25px;
+    font-weight: 700;
+    color: crimson;
+}
+#cityName{
+    text-decoration: underline;
+    font-weight: 600;
+}
